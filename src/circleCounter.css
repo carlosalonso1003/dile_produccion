@@ -1,0 +1,28 @@
+.user-indicator {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.animated-number {
+  transition: 1s all;
+}
+
+/* Agregar una animación para el cambio de número */
+@keyframes numberChange {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#user-count {
+  animation: numberChange 1s;
+}

@@ -1,0 +1,218 @@
+.slider {
+  @apply w-full h-[320px] md:h-[462px] lg:h-[500px] overflow-hidden rounded-br-[80px] relative;
+  user-select: none;
+}
+
+.slide {
+  @apply w-full h-full bg-cover bg-center bg-no-repeat rounded-br-[80px] absolute top-0 left-0;
+}
+
+.slide-1 {
+  @apply bg-[url('/public/images/img-slide-mobile-club.png')];
+}
+
+@media screen and (min-width: 768px) {
+  .slide-1 {
+    @apply bg-[url('/public/images/img-slide-tablet-club.png')];
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slide-1 {
+    @apply bg-[url('/public/images/img-slide-desktop-club.png')];
+  }
+}
+
+.slide-2 {
+  @apply bg-[url('/public/images/img-slide-mobile-plazofijo.png')];
+}
+
+@media screen and (min-width: 768px) {
+  .slide-2 {
+    @apply bg-[url('/public/images/img-slide-tablet-plazofijo.png')];
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slide-2 {
+    @apply bg-[url('/public/images/img-slide-desktop-plazofijo.png')];
+  }
+}
+
+.slide-3 {
+  @apply bg-[url('/public/images/img-slide-mobile-emprendedor.png')];
+}
+
+@media screen and (min-width: 768px) {
+  .slide-3 {
+    @apply bg-[url('/public/images/img-slide-tablet-emprendedor.png')];
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slide-3 {
+    @apply bg-[url('/public/images/img-slide-desktop-emprendedor.png')];
+  }
+}
+
+.slide-4 {
+  @apply bg-[url('/public/images/img-slide-mobile-digital.png')];
+}
+
+@media screen and (min-width: 768px) {
+  .slide-4 {
+    @apply bg-[url('/public/images/img-slide-tablet-digital.png')];
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slide-4 {
+    @apply bg-[url('/public/images/img-slide-desktop-digital.png')];
+  }
+}
+
+.information {
+  @apply w-full px-[6%] lg:px-20 max-w-7xl mx-auto text-white flex flex-col justify-center h-full;
+}
+
+.title {
+  @apply w-[80%] lg:w-[50%] text-[20px] md:text-[34px] lg:text-[46px] font-bold leading-[1.1];
+}
+
+.description {
+  @apply w-[80%] lg:w-[50%] text-[14px] md:text-[18px] font-normal mt-4;
+}
+
+.button-info {
+  @apply mt-8 bg-secondary-400 px-8 h-12 md:h-14 text-primary-800 font-bold text-[14px] rounded-sm;
+}
+
+.container-arrows {
+  @apply absolute top-1/2 w-full hidden lg:block -mt-5;
+}
+
+.arrows-btn {
+  @apply relative w-full max-w-7xl mx-auto bg-red-400;
+}
+
+.btn-prev {
+  @apply absolute left-0 pl-4 opacity-50 hover:opacity-100;
+}
+
+.btn-prev img {
+  @apply rotate-180 h-10;
+}
+
+.btn-next {
+  @apply absolute right-0 pr-4 opacity-50 hover:opacity-100;
+}
+
+.btn-next img {
+  @apply h-10;
+}
+
+.dots-mobile {
+  @apply h-4 absolute  bottom-[5%]  left-1/2 md:hidden;
+  width: var(--widthdotsmobile);
+  margin-left: var(--margindotsmobile);
+}
+
+.dots-mobile-container {
+  @apply relative flex w-full justify-between items-center;
+}
+
+.container-dots-main {
+  @apply h-9 absolute bottom-[5%] left-1/2 hidden md:block;
+  margin-left: var(--margindots);
+  width: var(--widthdots);
+  user-select: none;
+}
+
+.container-dots {
+  @apply w-full flex items-center justify-between;
+}
+
+.dot {
+  @apply w-9 h-9 leading-5 text-[14px] font-medium rounded-full text-white cursor-pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-pagination-circle {
+  @apply relative hidden md:block;
+}
+
+.swiper-pagination-circle svg {
+  @apply absolute top-0 fill-none;
+  @apply stroke-[3px] stroke-white;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  @apply transform rotate-[-270deg];
+}
+
+.swiper-pagination-circle-index {
+  @apply w-full h-full p-[7px];
+  @apply flex items-center justify-center;
+}
+
+.animation-left {
+  animation: slide-in-left 2s ease-in-out forwards;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%) scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animation-right {
+  animation: slide-in-right 2s ease-in-out forwards;
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(100%) scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+.animation-title {
+  animation: animation-text 1s ease-in-out 2s forwards;
+  opacity: 0;
+}
+
+.animation-description {
+  animation: animation-text 1s ease-in-out 2.3s forwards;
+  opacity: 0;
+}
+
+.animation-button {
+  animation: animation-text 1s ease-in-out 2.5s forwards;
+  opacity: 0;
+}
+
+@keyframes animation-text {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

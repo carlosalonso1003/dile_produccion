@@ -1,0 +1,15 @@
+.card-valores::after {
+  content: "Una persona íntegra acostumbra guardar absoluta reserva en todo lo que hace y se comporta con rectitud, sin buscar en ningún caso beneficio propio o de terceros a través del uso indebido de su posición.";
+  color: #13498c;
+  background-color: white;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+.card-valores:hover::after {
+  transform: translateY(0);
+}

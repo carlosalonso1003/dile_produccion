@@ -1,0 +1,39 @@
+.container-input {
+  @apply w-full h-[50px] relative overflow-hidden;
+}
+
+.container-input input {
+  @apply w-full h-full text-black pt-5;
+  background: none;
+  border: none;
+  outline: 0px;
+}
+
+.container-input .lbl-nom {
+  @apply absolute bottom-0 left-0 w-full h-full;
+  border-bottom: 1px solid #13498c;
+  pointer-events: none;
+}
+
+.container-input .lbl-nom::after {
+  content: "";
+  @apply absolute left-0 bottom-[-1px] w-full h-full;
+  border-bottom: 3px solid #02518c;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.container-input input:focus + .lbl-nom::after,
+.container-input input:valid + .lbl-nom::after {
+  transform: translateX(0%);
+}
+
+.text-nomb {
+  @apply absolute bottom-1 left-0 text-black;
+  transition: all 0.3s ease;
+}
+.container-input input:focus + .lbl-nom .text-nomb,
+.container-input input:valid + .lbl-nom .text-nomb {
+  transform: translateY(-150%);
+  @apply text-[14px] text-primary-800;
+}

@@ -1,0 +1,29 @@
+.container-options {
+  @apply w-[80%] bg-primary-100 rounded-lg mx-auto;
+}
+
+.container-options__titles {
+  @apply w-full flex;
+  @apply text-gray-700 font-medium text-opacity-60;
+}
+
+.container-options__titles button {
+  @apply flex-1 py-4;
+}
+
+.container-group {
+  @apply font-medium text-primary-800;
+}
+
+.container-group button {
+  @apply py-4 hover:text-primary-800 hover:text-opacity-100;
+}
+
+.container-card__iconoptions {
+  @apply mx-auto flex items-center justify-center;
+  @apply w-12 h-12;
+}
+
+.container-cardoptions h1 {
+  @apply mt-2 font-medium text-[16px] text-center;
+}

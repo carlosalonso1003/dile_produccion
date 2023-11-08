@@ -1,0 +1,14 @@
+.container-card {
+  @apply flex flex-col items-center h-full;
+  @apply py-12 px-4;
+  @apply rounded-tl-3xl rounded-br-3xl;
+}
+
+.container-card__icon {
+  @apply flex flex-col items-center;
+  @apply w-16 h-16 lg:w-20 lg:h-20 flex items-center justify-center;
+}
+
+.container-card h1 {
+  @apply mt-2 font-semibold text-[14px] lg:text-[16px] leading-none text-center;
+}

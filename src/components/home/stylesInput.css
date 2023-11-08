@@ -1,0 +1,40 @@
+.container-input {
+  @apply w-full h-[50px] relative overflow-hidden;
+}
+
+.container-input input {
+  @apply w-full h-[50px] text-[18px] text-black pt-[24px] p-4 pb-6 absolute bottom-0;
+  background: none;
+  background-color: white;
+  border: none;
+  outline: 0px;
+  caret-color: #02518c;
+  font-weight: 500;
+}
+
+.is-label {
+  @apply absolute bottom-0 left-0 w-full h-full;
+  pointer-events: none;
+  border-bottom: 1px solid #13498c;
+}
+
+.is-label::after {
+  content: "";
+  @apply absolute left-0 bottom-[-1px] w-full h-full;
+  border-bottom: 3px solid #02518c;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.is-focused {
+  transform: translateY(-250%);
+  @apply text-[14px] text-primary-800 font-light ml-0;
+}
+
+.is-focused-label::after {
+  transform: translateX(0%);
+}
+
+.message-error {
+  @apply text-[#eb0046] text-[12px] font-semibold;
+}

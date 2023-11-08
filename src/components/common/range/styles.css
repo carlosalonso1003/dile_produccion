@@ -1,0 +1,16 @@
+#sliderRange {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 10%;
+}
+
+/* Design slider button */
+#sliderRange::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  @apply bg-primary-800;
+}
