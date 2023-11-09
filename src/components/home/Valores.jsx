@@ -15,9 +15,9 @@ export default function Valores() {
             <Estrella
               textNumber={"01"}
               icon={"/images/estrella_full.png"}
-              title={"ETICA"}
+              title={"ÉTICA"}
               description={
-                "Es fundamental para establecer un ambiente de trabajo positivo, promover la confianza, mantener la integridad y la responsabilidad, y cumplir con las expectativas de la sociedad en general."
+                "Contamos con un ambiente de trabajo positivo donde promovemos la confianza, la integridad y la responsabilidad para cumplir con las expectativas de nuestros socios. "
               }
             />
             <Estrella
@@ -25,7 +25,7 @@ export default function Valores() {
               icon={"/images/estrella_naranja.png"}
               title={"EFICIENCIA"}
               description={
-                "Es un objetivo importante para las organizaciones, ya que puede conducir a un mayor éxito, competitividad y rentabilidad. Las empresas que operan de manera eficiente son más ágiles y están mejor preparadas para enfrentar los desafíos del mercado y aprovechar las oportunidades que se les presentan."
+                "Tenemos un equipo altamente eficiente lo que nos conduce a un mayor éxito, competitividad y rentabilidad en la cooperativa DILE, permitiéndonos agilizar procesos y estar mejor preparados para enfrentar los desafíos del mercado. "
               }
             />
             <Estrella
@@ -33,7 +33,7 @@ export default function Valores() {
               icon={"/images/estrella_rojo.png"}
               title={"INCLUSIÓN"}
               description={
-                "Al garantizar que todos tengan la oportunidad de participar en la economía a través de servicios financieros accesibles, se pueden superar muchas desigualdades y mejorar la calidad de vida de las personas en todo el mundo."
+                "Garantizamos que todos nuestros socios tengan la oportunidad de salir adelante a través de nuestros servicios financieros creando un ambiente donde juntos podamos superar muchas desigualdades y mejoremos la calidad de vida de nuestros más de 25 mil socios cooperativistas."
               }
             />
             

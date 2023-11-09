@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function LogoDile({ className }) {
   return (
     <>
-      <Link to={"/"} className={`${className} cursor-pointer`}>
+      <Link to={"/"} className={`${className} cursor-pointer hover:scale-105`}>
         <svg
           version="1.1"
           id="Layer_1"

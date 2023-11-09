@@ -17,7 +17,7 @@ export default function ContainerItemsDefault({ id }) {
     },
     {
       src: <MasInclusivoSvg />,
-      title: "Mas Inclusivo",
+      title: "Más Inclusivo",
       linkPath: "/credito-mas-inclusivo",
     },
     {
@@ -37,7 +37,7 @@ export default function ContainerItemsDefault({ id }) {
       src: (
         <img
           src={`${process.env.PUBLIC_URL}/icons/ahorro-movil.svg`}
-          className="w-10 h-10"
+          className="w-10 h-10 hover:scale-125"
         />
       ),
       title: "Cuenta Movil",

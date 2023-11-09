@@ -8,15 +8,15 @@ export default function PagaDiario() {
     <>
       <Molde
         image={"/images/pagodiario_new.jpg"}
-        title={"Credito Paga Diario"}
+        title={"CRÉDITO PAGO DIARIO"}
         description={
-          "Es una alternativa de financiamiento de corto plazo que permite al socio pagar el credito de manera diaria en la comodidad de su negocio, bajo el supuesto de que sus ingresos son en esta frecuencia."
+          "Es una alternativa de financiamiento de corto plazo que permite al socio pagar el crédito de manera diaria en la comodidad de su negocio, bajo el supuesto de que sus ingresos son en esta frecuencia."
         }
-        textButton={"Solicita tu credito paga-diario hoy!"}
+        textButton={"Solicita tu crédito pago diario ¡AHORA!"}
         linkForm={"/solicitar/pago-diario"}
         requisitos={
           <InfoItems
-            Title={"Conoce nuestros Requisitos"}
+            Title={"CONOCE NUESTOS REQUISITOS"}
             textColor={"text-primary-50"}
           >
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
@@ -34,14 +34,14 @@ export default function PagaDiario() {
               />
               <CardInfo1
                 icon={"/icons/evaluacion_dile.svg"}
-                title={"Historial Créditicio"}
+                title={"Historial Crediticio"}
               />
             </div>
           </InfoItems>
         }
         beneficios={
           <InfoItems
-            Title={"Conoce nuestros Beneficios"}
+            Title={"CONOCE NUESTROS BENEFICIOS"}
             textColor={"text-primary-800"}
           >
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
@@ -62,7 +62,7 @@ export default function PagaDiario() {
         }
         condiciones={
           <InfoItems
-            Title={"Conoce nuestras Condiciones"}
+            Title={"CONOCE NUESTRAS CONDICIONES"}
             textColor={"text-primary-50"}
           >
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">

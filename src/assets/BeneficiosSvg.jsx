@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BeneficiosSvg() {
   return (
-    <div className="w-10 h-10">
+    <div className="w-10 h-10 hover:scale-125">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
         <g>
           <rect

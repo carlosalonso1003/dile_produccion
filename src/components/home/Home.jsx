@@ -80,7 +80,7 @@ export default function Home() {
           <div className="o_card2_title_home">
             <h2>SEGUIMOS CRECIENDO JUNTOS</h2>
           </div>
-          <div className="w-full h-full grid grid-cols-1 sm:grid-cols-7 gap-8 px-0 sm:px-8 my-12 flex-wrap mt-16">
+          <div className="w-full h-full grid grid-cols-3 sm:grid-cols-7 gap-8 px-0 sm:px-8 my-12 flex-wrap mt-16">
             <CardInfoHome
               image={`${process.env.PUBLIC_URL}/images/creciendo_principal.png`}
             />
@@ -88,8 +88,21 @@ export default function Home() {
               image={`${process.env.PUBLIC_URL}/images/socio_cooperativa.png`}
             />
             <CardInfoHome
-              image={`${process.env.PUBLIC_URL}/images/numero_desembolso.png`}
+              image={`${process.env.PUBLIC_URL}/images/desembolso_credito.png`}
             />
+            <CardInfoHome
+              image={`${process.env.PUBLIC_URL}/images/agencia_nacional.png`}
+            />
+            <CardInfoHome
+              image={`${process.env.PUBLIC_URL}/images/mujeres_credito.png`}
+            />
+            <CardInfoHome
+              image={`${process.env.PUBLIC_URL}/images/socio_migrante.png`}
+            />
+            <CardInfoHome
+              image={`${process.env.PUBLIC_URL}/images/socio_certificado.png`}
+            />
+            
           </div>
         </div>
       </div>

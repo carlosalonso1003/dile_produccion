@@ -27,7 +27,7 @@ export default function Navbar1() {
                     onMouseEnter={() => setIdItem(1)}
                   >
                     <div className="o_nav_prod flex items-center justify-center w-full h-full">
-                      creditos
+                      créditos
                     </div>
                   </div>
                   <div
@@ -43,7 +43,7 @@ export default function Navbar1() {
                     onMouseEnter={() => setIdItem(3)}
                   >
                     <div className="o_nav_prod flex items-center justify-center w-full h-full">
-                      familia dile
+                      club familia dile
                     </div>
                   </div>
                 </div>

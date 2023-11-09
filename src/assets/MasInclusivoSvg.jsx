@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MasInclusivoSvg() {
   return (
-    <div className="w-10 h-10">
+    <div className="w-10 h-10 hover:scale-125">
       <svg
         enableBackground="new 0 0 64 64"
         id="Layer_1"

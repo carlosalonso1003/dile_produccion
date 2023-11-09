@@ -19,9 +19,9 @@ export default function MisionAndVision() {
             <div className="flex-1 bg-secondary-400  p-4 flex flex-col items-center justify-center rounded-br-3xl min-h-[176px]">
               <h1 className="text-[30px] font-bold">MISIÓN</h1>
               <p className="text-[20px] font-normal text-justify">
-                "Combatir la exlusión social y la pobreza a través del 
+                "Combatir la exclusión social y la pobreza a través del 
                 microcrédito y soluciones financieras innovadoras, 
-                apalancadas en el uso de tecnologia."
+                apalancadas en el uso de la tecnologia."
               </p>
             </div>
           </div>
@@ -37,8 +37,8 @@ export default function MisionAndVision() {
               <h1 className="text-[30px] font-bold">VISIÓN</h1>
               <p className="text-[20px] font-normal text-justify">
                 "Ser la Cooperativa de Ahorro y Crédito con mayor número de socios 
-                en el Perú, sirviendo a sus socioss con un modelo rentable, eficiente,
-                innovador y con enfoque tecnológico.""
+                en el Perú, sirviendo a sus socios con un modelo rentable, eficiente,
+                innovador y con enfoque tecnológico."
               </p>
             </div>
           </div>

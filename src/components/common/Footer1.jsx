@@ -68,14 +68,6 @@ export default function Footer1() {
                     Wanchaq: Av. Garcilazo N° 415
                   </Link>
                   <Link
-                    to={"https://maps.app.goo.gl/vkp9pyHEorLjceQS6"}
-                    target="_blank"
-                    preventScrollReset={true}
-                    className="text-black transition-colors font-light duration-200 hover:font-bold hover:text-primary-800"
-                  >
-                    Santiago: Calle Siete Mascarones 1190
-                  </Link>
-                  <Link
                     to={"https://maps.app.goo.gl/WsYKXFok4uxQVfRY6"}
                     target="_blank"
                     preventScrollReset={true}
@@ -83,7 +75,14 @@ export default function Footer1() {
                   >
                     San Jeronimo: Av. Llocllapata A-4, Urb. Retamales
                   </Link>
-
+                  <Link
+                    to={"https://maps.app.goo.gl/vkp9pyHEorLjceQS6"}
+                    target="_blank"
+                    preventScrollReset={true}
+                    className="text-black transition-colors font-light duration-200 hover:font-bold hover:text-primary-800"
+                  >
+                    Santiago: Calle Siete Mascarones 1190
+                  </Link>
                   <Link
                     to={"https://maps.app.goo.gl/ytGZM3gqYzRAxjiA8"}
                     target="_blank"
@@ -119,7 +118,7 @@ export default function Footer1() {
                     preventScrollReset={true}
                     className="text-black transition-colors font-light duration-200 hover:font-bold hover:text-primary-800"
                   >
-                    ¿Qiénes somos?
+                    ¿Quiénes somos?
                   </Link>
                   <Link
                     to={"https://clubfamiliadile.com/"}
@@ -127,7 +126,7 @@ export default function Footer1() {
                     preventScrollReset={true}
                     className="text-black transition-colors font-light duration-200 hover:font-bold hover:text-primary-800"
                   >
-                    Club familia dile
+                    CLUB FAMILIA DILE
                   </Link>
                   <Link
                     to={"#"}

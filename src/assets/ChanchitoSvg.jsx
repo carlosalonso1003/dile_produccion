@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ChanchitoSvg() {
   return (
-    <div className="w-10 h-10">
+    <div className="w-10 h-10 hover:scale-125">
       <svg
         version="1.1"
         id="Layer_1"

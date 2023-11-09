@@ -8,15 +8,15 @@ export default function CreditoDigital() {
     <>
       <Molde
         image={"/images/credito_digital.jpg"}
-        title={"Crédito Digital"}
+        title={"CRÉDITO DIGITAL"}
         description={
           "En de la Cooperativa de ahorros y creditos DILE, creemos en la simplicidad y la accesibilidad financiera. Nuestro crédito digital está diseñado para adaptarse a tu estilo de vida moderno, permitiéndote acceder a los fondos que necesitas cuando los necesitas, desde cualquier lugar. Descubre la comodidad y la eficiencia del futuro financiero hoy mismo con nuestro crédito digital."
         }
-        textButton={"Solicita un Crédito Digital hoy!"}
+        textButton={"Solicita un Crédito Digital ¡AHORA!"}
         linkForm={"/solicitar/digital"}
         requisitos={
           <InfoItems
-            Title={"Conoce nuestros Requisitos"}
+            Title={"CONOCE NUESTROS REQUISITOS"}
             textColor={"text-primary-50"}
           >
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
@@ -34,14 +34,14 @@ export default function CreditoDigital() {
               />
               <CardInfo1
                 icon={"/icons/evaluacion_dile.svg"}
-                title={"Historial Créditicio"}
+                title={"Historial Crediticio"}
               />
             </div>
           </InfoItems>
         }
         beneficios={
           <InfoItems
-            Title={"Conoce nuestros Beneficios"}
+            Title={"CONOCE NUESTROS BENEFICIOS"}
             textColor={"text-primary-800"}
           >
             <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mt-8">
@@ -70,7 +70,7 @@ export default function CreditoDigital() {
         }
         condiciones={
           <InfoItems
-            Title={"Conoce nuestras Condiciones"}
+            Title={"CONOCE NUESTRAS CONDICIONES"}
             textColor={"text-primary-50"}
           >
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">

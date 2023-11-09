@@ -53,7 +53,7 @@ export default function Molde({
               to={linkForm}
               className="absolute left-1/2 -ml-[150px] sm:-ml-[250px] md:-ml-[350px] lg:-ml-[450px] top-0 -mt-[50px]  shadow-custom  w-[300px] sm:w-[500px] md:w-[700px] lg:w-[900px] h-[100px] animate-bounce animate-infinite"
             >
-              <button className="w-full h-full rounded-lg bg-secondary-400 font-bold text-primary-950 text-[16px] lg:text-[24px]">
+              <button className="w-full h-full rounded-lg bg-secondary-400 font-bold text-primary-800 text-[16px] lg:text-[24px]">
                 {textButton}
               </button>
             </Link>

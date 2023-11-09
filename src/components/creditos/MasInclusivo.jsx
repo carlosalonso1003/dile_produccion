@@ -8,15 +8,15 @@ export default function MasInclusivo() {
     <>
       <Molde
         image={"/images/mas_inclusivo.jpg"}
-        title={"Credito Más Inclusivo"}
+        title={"CRÉDITO MÁS INCLUSIVO"}
         description={
           "En DILE, comprendemos que las dificultades financieras pueden afectar a cualquiera en algún momento de la vida. Creemos en brindar oportunidades a quienes enfrentan desafíos crediticios, reconociendo que detrás de cada calificación crediticia hay una historia individual. Nuestro compromiso es ayudar a las personas a reconstruir su historial crediticio y recuperar su estabilidad financiera."
         }
-        textButton={"Solicita tu credito Más Inclusivo hoy!"}
+        textButton={"Solicita tu crédito Más Inclusivo ¡AHORA!"}
         linkForm={"/solicitar/mas-inclusivo"}
         requisitos={
           <InfoItems
-            Title={"Conoce nuestros Requisitos"}
+            Title={"CONOCE NUESTROS REQUISITOS"}
             textColor={"text-primary-50"}
           >
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
@@ -34,14 +34,14 @@ export default function MasInclusivo() {
               />
               <CardInfo1
                 icon={"/icons/evaluacion_dile.svg"}
-                title={"Historial Créditicio"}
+                title={"Historial Crediticio"}
               />
             </div>
           </InfoItems>
         }
         beneficios={
           <InfoItems
-            Title={"Conoce nuestros Beneficios"}
+            Title={"CONOCE NUESTROS BENEFICIOS"}
             textColor={"text-primary-800"}
           >
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
@@ -62,7 +62,7 @@ export default function MasInclusivo() {
         }
         condiciones={
           <InfoItems
-            Title={"Conoce nuestras Condiciones"}
+            Title={"CONOCE NUESTRAS CONDICIONES"}
             textColor={"text-primary-50"}
           >
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">

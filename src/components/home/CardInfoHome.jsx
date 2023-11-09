@@ -10,7 +10,7 @@ export default function CardInfoHome({ title, image, link, output }) {
     output ? (
       <Link
         ref={refCustom}
-        className={`card-home-info opacity-transition  ${
+        className={`card-home-info hover:scale-105 opacity-transition  ${
           inView1 ? "opacity-100" : "opacity-0"
         }`}
         to={link}
@@ -28,7 +28,7 @@ export default function CardInfoHome({ title, image, link, output }) {
     ) : (
       <Link
         ref={refCustom}
-        className={`card-home-info opacity-transition  ${
+        className={`card-home-info hover:scale-105 opacity-transition  ${
           inView1 ? "opacity-100" : "opacity-0"
         }`}
         to={link}
@@ -45,7 +45,7 @@ export default function CardInfoHome({ title, image, link, output }) {
   ) : (
     <div
       ref={refCustom}
-      className={`card-home-info opacity-transition  ${
+      className={`card-home-info hover:scale-105 opacity-transition  ${
         inView1 ? "opacity-100" : "opacity-0"
       }`}
     >

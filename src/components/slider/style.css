@@ -84,7 +84,7 @@
 }
 
 .button-info {
-  @apply mt-8 bg-secondary-400 px-8 h-12 md:h-14 text-primary-800 font-bold text-[14px] rounded-sm;
+  @apply mt-8 bg-secondary-400 px-8 h-12 md:h-14 text-primary-800 font-bold text-[14px] rounded-sm hover:bg-white;
 }
 
 .container-arrows {

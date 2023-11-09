@@ -8,15 +8,15 @@ export default function Rapidin() {
     <>
       <Molde
         image={"/images/rapidin.jpg"}
-        title={"Credito Rapidin"}
+        title={"CRÉDITO RAPIDIN"}
         description={
-          "En DILE, entendemos que en la vida pueden surgir situaciones inesperadas que requieren una solución financiera rápida. Nuestra misión es proporcionar a nuestros clientes la ayuda que necesitan cuando más la necesitan, de manera rápida y eficiente."
+          "En DILE, entendemos que en la vida pueden surgir situaciones inesperadas que requieren una solución financiera rápida. Nuestra misión es proporcionar a nuestros socios la ayuda que necesitan cuando más la necesitan, de manera rápida y eficiente."
         }
-        textButton={"Solicita tu credito Rapidín hoy!"}
+        textButton={"Solicita tu crédito Rapidín ¡AHORA!"}
         linkForm={"/solicitar/rapidin"}
         requisitos={
           <InfoItems
-            Title={"Conoce nuestros Requisitos"}
+            Title={"CONOCE NUESTROS REQUISITOS"}
             textColor={"text-primary-50"}
           >
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
@@ -34,14 +34,14 @@ export default function Rapidin() {
               />
               <CardInfo1
                 icon={"/icons/evaluacion_dile.svg"}
-                title={"Historial Créditicio"}
+                title={"Historial Crediticio"}
               />
             </div>
           </InfoItems>
         }
         beneficios={
           <InfoItems
-            Title={"Conoce nuestros Beneficios"}
+            Title={"CONOCE NUESTROS BENEFICIOS"}
             textColor={"text-primary-800"}
           >
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
@@ -66,7 +66,7 @@ export default function Rapidin() {
         }
         condiciones={
           <InfoItems
-            Title={"Conoce nuestras Condiciones"}
+            Title={"CONOCE NUESTRAS CONDICIONES"}
             textColor={"text-primary-50"}
           >
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">

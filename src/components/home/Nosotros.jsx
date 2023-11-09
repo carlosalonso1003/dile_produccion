@@ -16,7 +16,7 @@ export default function Nosotros() {
         <div className="absolute w-full h-full top-0 ">
           <div className="w-full h-full l mx-auto max-w-7xl grid content-center px-16">
             <h2 className="my-auto text-[24px] md:text-[32px] lg:text-[64px] font-bold text-primary-50">
-              {"Nosotros"}
+              {"NOSOTROS"}
             </h2>
           </div>
         </div>
@@ -25,7 +25,7 @@ export default function Nosotros() {
         <div className="w-full max-w-7xl mx-auto px-10 my-16">
 
         <h1 className="font-bold text-center text-[28px] md:text-[48px] text-primary-800 mb-8">
-           NUESTRO HISTORIA
+           NUESTRA HISTORIA
         </h1>
         <div className="mb-16">
             <div className="flex flex-col lg:flex-row">
