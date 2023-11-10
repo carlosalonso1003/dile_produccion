@@ -1,4 +1,4 @@
-import Molde from "../common/Molde";
+import Molde from "../common/MoldeAhorro";
 import CardInfo from "../common/card/CardInfo";
 import CardInfo1 from "../common/card/CardInfo1";
 import InfoItems from "./InfoItems";
@@ -8,74 +8,82 @@ export default function CuentaMovil() {
     <>
       <Molde
         image={"/images/cuenta_movil.jpg"}
-        title={"Cuenta Movil"}
-        description={
-          "La Cuenta Móvil, una innovadora solución bancaria diseñada pensando en tu comodidad y libertad financiera. Esta cuenta revolucionaria te ofrece la flexibilidad de acceder y gestionar tu dinero en cualquier momento y en cualquier lugar."
-        }
-        textButton={"Solicita Mas Información!"}
-        requisitos={
+        title={"CUENTA MÓVIL"}
+
+        condiciones={
           <InfoItems
-            Title={"Conoce nuestros Requisitos"}
-            textColor={"text-primary-50"}
+            Title={"TIPOS DE CUENTA"}
+            textColor={"text-primary-800"}
           >
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
-              <CardInfo1
+              <CardInfo
+                icon={"/icons/socioActivo.svg"}
+                title={"Individual"}
+                description={"Solo participa una persona, y es el único que puede efectuar retiros, consultar sobre el saldo de su cuenta, etc."}
+              />
+              <CardInfo
+                icon={"/icons/mancomunada_indistinta.svg"}
+                title={"Mancomunada Indistinta"}
+                description={"Participan dos o más personas, hasta un máximo de tres titulares, la característica de esta cuenta, es que cualquiera de los titulares puede realizar retiros."}
+              />
+              <CardInfo
+                icon={"/icons/mancomunada_conjunta.svg"}
+                title={"Mancomunada Conjunta"}
+                description={"Participan dos o más personas, hasta un máximo de tres titulares, la característica de esta cuenta, es que al momento de realizar retiros deberán presentarse los tres titulares, y firmar en el respectivo voucher de retiro."}
+              />
+            </div>
+          </InfoItems>
+        }
+
+        requisitos={
+          <InfoItems
+            Title={"CONOCE NUESTROS REQUISITOS"}
+            textColor={"text-primary-800"}
+          >
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+              <CardInfo
                 icon={"/icons/socioActivo.svg"}
                 title={"Ser socio"}
+                description={""}
               />
-              <CardInfo1
+              <CardInfo
                 icon={"/icons/Tarjeta-Dni.svg"}
                 title={"DNI Vigente"}
+                description={"del titular o titulares"}
               />
-              <CardInfo1
+              <CardInfo
                 icon={"/icons/desembolso_1.svg"}
                 title={"Apertura con S/ 10.00"}
+                description={"monto minimo para realizar la apertura de cuenta"}
               />
             </div>
           </InfoItems>
         }
         beneficios={
           <InfoItems
-            Title={"Conoce nuestros Beneficios"}
+            Title={"CONOCE NUESTROS BENEFICIOS"}
             textColor={"text-primary-800"}
           >
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
               <CardInfo
                 icon={"/icons/beneficios.svg"}
-                title={"Beneficios CLUB FAMILIA DILE"}
+                title={"CLUB FAMILIA DILE"}
+                description={"una iniciativa para ayudarte a aumentar tus ahorros."}
               />
               <CardInfo
                 icon={"/icons/no_cobra_comision.svg"}
-                title={"No cobramos comisiones ni mantenimiento"}
+                title={"cero comisiones"}
+                description={"No cobramos ningun tipo de comision o mantenimiento."}
               />
               <CardInfo
                 icon={"/icons/mejorar-finanzas.svg"}
-                title={"Gana un interes hasta 3% TREA"}
+                title={"Interes"}
+                description={"Tenemos los mejores intereses del mercado, desde los 7% TREA"}
               />
             </div>
           </InfoItems>
         }
-        condiciones={
-          <InfoItems
-            Title={"Tipos de Cuenta"}
-            textColor={"text-primary-50"}
-          >
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
-              <CardInfo1
-                icon={"/icons/socioActivo.svg"}
-                title={"Individual"}
-              />
-              <CardInfo1
-                icon={"/icons/mancomunada_indistinta.svg"}
-                title={"Mancomunada Indistinta"}
-              />
-              <CardInfo1
-                icon={"/icons/mancomunada_conjunta.svg"}
-                title={"Mancomunada Conjunta"}
-              />
-            </div>
-          </InfoItems>
-        }
+        
       />
     </>
   );

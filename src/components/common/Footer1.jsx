@@ -108,7 +108,7 @@ export default function Footer1() {
             <div className="">
               <div>
                 <h3 className="text-lg font-bold text-primary-800 uppercase">
-                  Accesos rapidos
+                  Nosotros
                 </h3>
 
                 <div className="flex flex-col items-start mt-1 space-y-1">

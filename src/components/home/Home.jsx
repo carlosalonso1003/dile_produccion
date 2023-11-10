@@ -35,7 +35,7 @@ export default function Home() {
     {
       title: "¡SACA TU CRÉDITO DIGITAL AL TOQUE!",
       description:
-        "Con un solo clic saca tu crédito desde la comodidad de tu hogar o donde quiera que te encuentres y 𝗗𝗘𝗦𝗘𝗠𝗕𝗢𝗟𝗦𝗔 𝗔𝗟 𝗜𝗡𝗦𝗧𝗔𝗡𝗧𝗘. ",
+        "Con un solo clic saca tu crédito desde la comodidad de tu hogar o donde quiera que te encuentres y DESEMBOLSA AL INSTANTE. ",
       textButton: "Ver más",
       linkPath: "/solicitar/digital",
     },

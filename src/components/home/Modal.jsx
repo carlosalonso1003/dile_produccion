@@ -16,7 +16,7 @@ const Modal = ({ isOpen, onClose, children }) => {
         className="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"
         onClick={stopPropagation}
       ></div>
-      <div className="modal-container bg-[#D1E7DD] w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
+      <div className="modal-container bg-secondary-100 w-1/2 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
         <div className="modal-content py-4 text-left px-6">{children}</div>
       </div>
     </div>
