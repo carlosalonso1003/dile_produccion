@@ -5,7 +5,7 @@ export default function CardInfo1({ icon, title }) {
     <>
       <div className="group">
         <div className={`container-card  hover:scale-125 `}>
-          <div className={`container-card__icon  `}>
+          <div className={`container-card__icon`}>
             {typeof icon === "string" ? (
               <img
                 src={`${process.env.PUBLIC_URL}${icon}`}

@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import MisionAndVision from "./MisioAndVision";
 import Valores from "./Valores";
+import MoldeFuncionario from "./MoldeFuncionario";
+import MoldeFuncionario1 from "./MoldeFuncionario1";
 
 export default function Nosotros() {
   useEffect(() => {
@@ -51,6 +53,46 @@ export default function Nosotros() {
               </div>
             </div>
           </div>
+
+          <h1 className="font-bold text-center text-[28px] md:text-[48px] text-primary-800 mb-8">
+            FUNCIONARIOS PRINCIPALES
+          </h1>
+          <div className="grid grid-cols-3 md:grid-cols-1 gap-8 mt-8 content-between justify-between">
+            <MoldeFuncionario
+                  imgPerfil={"/images/funcionario-gerente.jpg"}
+                  name={"MAG. ANDRÉ ALONSO MORALES CHIRINOS"}
+                  title={"GERENTE GENERAL"}
+            />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 content-between justify-between">
+            <MoldeFuncionario
+                  imgPerfil={"/images/funcionario-contador.jpg"}
+                  name={"C.P.C KAREN TORVISCO ZEGARRA"}
+                  title={"CONTADOR GENERAL"}
+                 
+            />
+            <MoldeFuncionario
+                  imgPerfil={"/images/funcionario-auditoria.jpg"}
+                  name={"MAG. ANA MILAGROS JUAREZ MAMANI"}
+                  title={"AUDITORA INTERNA"}
+                  
+            />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 content-between justify-between">
+            <MoldeFuncionario
+                  imgPerfil={"/images/funcionario-negocios.jpg"}
+                  name={"MBA. CESAR EDUARDO BUSTAMANTE BACA"}
+                  title={"NEGOCIOS"}
+                  
+            />
+            <MoldeFuncionario
+                  imgPerfil={"/images/funcionario-presidente.jpg"}
+                  name={"C.P.C ARNOLD MIKHAIL ENRIQUEZ CHACON"}
+                  title={"PRESIDENTE DEL CONSEJO DE ADMINISTRACIÓN"}
+                  
+            />
+          </div>
+
 
           <h1 className="font-bold text-center text-[28px] md:text-[48px] text-primary-800 mb-8">
            NUESTRO PROPOSITO
