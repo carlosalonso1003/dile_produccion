@@ -15,7 +15,7 @@ export default function CuentaMovil() {
             Title={"TIPOS DE CUENTA"}
             textColor={"text-primary-800"}
           >
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
               <CardInfo
                 icon={"/icons/socioActivo.svg"}
                 title={"Individual"}
@@ -40,7 +40,7 @@ export default function CuentaMovil() {
             Title={"CONOCE NUESTROS REQUISITOS"}
             textColor={"text-primary-800"}
           >
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
               <CardInfo
                 icon={"/icons/socioActivo.svg"}
                 title={"Ser socio"}
@@ -54,7 +54,7 @@ export default function CuentaMovil() {
               <CardInfo
                 icon={"/icons/desembolso_1.svg"}
                 title={"Apertura con S/ 10.00"}
-                description={"monto minimo para realizar la apertura de cuenta"}
+                description={"monto mínimo para realizar la apertura de cuenta"}
               />
             </div>
           </InfoItems>
@@ -64,21 +64,34 @@ export default function CuentaMovil() {
             Title={"CONOCE NUESTROS BENEFICIOS"}
             textColor={"text-primary-800"}
           >
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
               <CardInfo
                 icon={"/icons/beneficios.svg"}
                 title={"CLUB FAMILIA DILE"}
-                description={"una iniciativa para ayudarte a aumentar tus ahorros."}
-              />
-              <CardInfo
-                icon={"/icons/no_cobra_comision.svg"}
-                title={"cero comisiones"}
-                description={"No cobramos ningun tipo de comision o mantenimiento."}
+                description={"Una iniciativa para ayudarte a aumentar tus ahorros."}
               />
               <CardInfo
                 icon={"/icons/mejorar-finanzas.svg"}
                 title={"Interes"}
-                description={"Tenemos los mejores intereses del mercado, desde los 7% TREA"}
+                description={"Ganas buenos intereses, calculados a la tasa minima del 3.00 % TREA."}
+              />
+              <CardInfo
+                icon={"/icons/no_cobra_comision.svg"}
+                title={"cero comisiones"}
+                description={"No cobramos comisiones, mantenimiento e impuesto a las transacciones financieras (ITF)."}
+              />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 lg:ml-40 lg:mr-40">
+              
+              <CardInfo
+                icon={"/icons/libre_disponible.svg"}
+                title={"Disponible"}
+                description={"Libre disponibilidad de tu dinero en cualquier momento"}
+              />
+              <CardInfo
+                icon={"/icons/desembolso_fijo.svg"}
+                title={"Crédito facil"}
+                description={"Puede usarse como garantía de sus préstamos."}
               />
             </div>
           </InfoItems>

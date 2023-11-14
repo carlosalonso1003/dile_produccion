@@ -22,7 +22,7 @@ import FormGeneral from "./components/home/FormGeneral";
 function App() {
   return (
     <>
-      <BrowserRouter basename="/paginadilev2">
+      <BrowserRouter basename="/">
         <>
           <ScrollTop />
 

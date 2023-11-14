@@ -54,44 +54,45 @@ export default function Nosotros() {
             </div>
           </div>
 
-          <h1 className="font-bold text-center text-[28px] md:text-[48px] text-primary-800 mb-8">
+          <h1 className="font-bold text-center text-[28px] md:text-[48px]  text-primary-800 mb-8">
             FUNCIONARIOS PRINCIPALES
           </h1>
-          <div className="grid grid-cols-3 md:grid-cols-1 gap-8 mt-8 content-between justify-between">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8 mt-8  content-between justify-between">
             <MoldeFuncionario
                   imgPerfil={"/images/funcionario-gerente.jpg"}
                   name={"MAG. ANDRÉ ALONSO MORALES CHIRINOS"}
                   title={"GERENTE GENERAL"}
+                  descripcion={"Ingeniero Industrial con Maestría en Finanzas de ESADE (España) con 18 años de experiencia en el Sistema Financiero. Anteriormente ocupo cargos gerenciales en Compartamos Financiera. Con estudios de Postgrado en dos de las mejores y más prestigiosas instituciones educativas globales (MIT en Usa y ESADE de España) así como ESAN en Perú. Especialización en Dirección Financiera, Fintech y Data Science. Tiene 4 años de trabajo en la Cooperativa Dile."}
             />
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 content-between justify-between">
-            <MoldeFuncionario
+            <MoldeFuncionario1
                   imgPerfil={"/images/funcionario-contador.jpg"}
                   name={"C.P.C KAREN TORVISCO ZEGARRA"}
                   title={"CONTADOR GENERAL"}
+                  descripcion={"Contador Público por la Universidad Tecnológica de los Andes – UTEA, estudios de Maestría en Auditoría por la Universidad Nacional San Antonio Abad del Cusco – UNSAAC; cuenta con 6 años de experiencia profesional en contabilidad de cooperativas con especialización en finanzas (ZEGEL IPAE) y certificaciones en Auditoría tributaria preventiva y fiscalización tributaria (UNIVERSIDAD CATOLICA SAN PABLO), Contabilidad de Cooperativas (FENACREP), Prevención de lavado de activos y financiamiento del terrorismo (UNIVERSIDAD CONTINENTAL). Tiene 6 años de trabajo en la Cooperativa Dile."}
                  
             />
             <MoldeFuncionario
                   imgPerfil={"/images/funcionario-auditoria.jpg"}
                   name={"MAG. ANA MILAGROS JUAREZ MAMANI"}
                   title={"AUDITORA INTERNA"}
+                  descripcion={"Magister en Auditoria emitido por la Universidad San Antonio de Abad del Cusco titulada como Contadora Púbica en la Universidad Católica Santa María de Arequipa. Tiene 10 años de experiencia en entidades financieras (cooperativas). A la fecha cuenta con Especialización en Gestión de Riesgos, Banca y Finanzas: Estrategias de Modelamiento emitido por ESAN lo que permite desarrollar sus actividades de control reportando al Consejo de Vigilancia de la Cooperativa. Tiene 5 años de trabajo en la Cooperativa Dile."}
                   
             />
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 content-between justify-between">
-            <MoldeFuncionario
+            <MoldeFuncionario1
                   imgPerfil={"/images/funcionario-negocios.jpg"}
                   name={"MBA. CESAR EDUARDO BUSTAMANTE BACA"}
                   title={"NEGOCIOS"}
+                  descripcion={"Licenciado en administración, Administración y gestión de empresas Universidad Nacional San Antonio Abad del Cusco Master of Business Administration - MBA, Administración y gestión de empresas, general · CENTRUM PUCP, con Especialización en cobranzas., Banca y servicios financieros, Universidad Nacional Mayor de San Marcos, Diplomatura, Gestión de recursos humanos Universidad Ricardo Palma. Tiene 5 años de trabajo en la Cooperativa Dile."}
                   
             />
             <MoldeFuncionario
                   imgPerfil={"/images/funcionario-presidente.jpg"}
                   name={"C.P.C ARNOLD MIKHAIL ENRIQUEZ CHACON"}
                   title={"PRESIDENTE DEL CONSEJO DE ADMINISTRACIÓN"}
+                  descripcion={"Contador Publico por la Universidad Nacional de San Antonio Abad del Cusco – UNSAAC, Asesor tributario empresarial, propietario de estudio contable, miembro del staff en BORCON INVERSIONES & CONSULTING GROUP SAC, ex funcionario en la Superintendencia Nacional de Aduanas y de la Administración Tributaria – SUNAT. "}
                   
             />
-          </div>
+            </div>
 
 
           <h1 className="font-bold text-center text-[28px] md:text-[48px] text-primary-800 mb-8">

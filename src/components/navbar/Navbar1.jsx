@@ -95,66 +95,71 @@ export default function Navbar1() {
                 <div>
                   <ul>
                     <li className="mb-1">
-                      <p className="block px-4 pt-4 pb-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 rounded">
+                      <p className="block px-4 pt-4 pb-2 text-sm font-bold text-gray-400 hover:bg-blue-50 rounded">
                         Productos
                       </p>
                       <div>
-                        <p className="block px-8 py-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 rounded">
-                          Creditos
+                        <p className="block px-8 py-2 text-sm font-bold text-gray-400 hover:bg-blue-50 rounded">
+                          Créditos
                         </p>
                         <Link
-                          className="block px-12 py-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                          className="block px-12 py-2 text-sm font-semibold text-primary-800 hover:bg-primary-800 hover:text-primary-50 rounded"
                           to={"/credito-pago-diario"}
                           onClick={() => setIsOpenMenu(false)}
                         >
-                          Credito Pago Diario
+                          Crédito Pago Diario
                         </Link>
                         <Link
-                          className="block px-12 py-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                          className="block px-12 py-2 text-sm font-semibold text-primary-800 hover:bg-primary-800 hover:text-primary-50 rounded"
                           to={"/credito-mas-inclusivo"}
                           onClick={() => setIsOpenMenu(false)}
                         >
-                          Credito Mas Inclusivo
+                          Crédito Mas Inclusivo
                         </Link>
                         <Link
-                          className="block px-12 py-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                          className="block px-12 py-2 text-sm font-semibold text-primary-800 hover:bg-primary-800 hover:text-primary-50 rounded"
                           to={"/credito-rapidin"}
                           onClick={() => setIsOpenMenu(false)}
                         >
-                          Credito Rapidin
+                          Crédito Rapidin
                         </Link>
                         <Link
-                          className="block px-12 py-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                          className="block px-12 py-2 text-sm font-semibold text-primary-800 hover:bg-primary-800 hover:text-primary-50 rounded"
                           to={"/credito-digital"}
                           onClick={() => setIsOpenMenu(false)}
                         >
-                          Credito Digital
+                          Crédito Digital
                         </Link>
-                        <p className="block px-8 py-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 rounded">
+                        <p className="block px-8 py-2 text-sm font-bold text-gray-400 hover:bg-blue-50 rounded">
                           Ahorros
                         </p>
                         <Link
-                          className="block px-12 py-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                          to={"/credito-mas-inclusivo"}
+                          className="block px-12 py-2 text-sm font-semibold text-primary-800 hover:bg-primary-800 hover:text-primary-50 rounded"
+                          to={"/cuenta-movil"}
                           onClick={() => setIsOpenMenu(false)}
                         >
-                          Ahorro Rapidin
+                          Ahorro Móvil
                         </Link>
                         <Link
-                          className="block px-12 py-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                          to={"/credito-mas-inclusivo"}
+                          className="block px-12 py-2 text-sm font-semibold text-primary-800 hover:bg-primary-800 hover:text-primary-50 rounded"
+                          to={"/cuenta-especial"}
                           onClick={() => setIsOpenMenu(false)}
                         >
-                          Ahorro Digital
+                          Ahorro Fijo
                         </Link>
-                        <Link className="block px-8 py-2 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        <Link 
+                          className="block px-8 py-2 text-sm font-bold text-gray-400 hover:bg-blue-50 rounded"
+                          to={"https://www.clubfamiliadile.com/"}
+                          onClick={()=>setIsOpenMenu(false)}
+                          >
                           Familia Dile
+                          
                         </Link>
                       </div>
                     </li>
                     <li className="mb-1">
                       <Link
-                        className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                        className="block p-4 text-sm font-bold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
                         to={"/nuestra-historia/nosotros"}
                         onClick={() => setIsOpenMenu(false)}
                       >
@@ -163,7 +168,7 @@ export default function Navbar1() {
                     </li>
                     <li className="mb-1">
                       <Link
-                        className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                        className="block p-4 text-sm font-bold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
                         to={"/agencias"}
                         onClick={() => setIsOpenMenu(false)}
                       >

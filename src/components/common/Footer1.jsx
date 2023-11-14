@@ -8,7 +8,7 @@ export default function Footer1() {
     <footer className="w-full bg-primary-50 py-8">
       <div className="w-full max-w-7xl mx-auto px-0 lg:px-10 flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
         <div className="w-full lg:w-4/12 lg:space-y-4 flex flex-row lg:flex-col justify-between  lg:justify-start">
-          <div className="w-[150px] sm:w-[250px] lg:w-full px-24">
+          <div className="w-[150px] sm:w-[250px] lg:w-[100%] px-24 ">
             <LogoDile className={"w-full"} />
           </div>
           <div className="sm:w-[250px] lg:w-full flex items-center justify-between px-8">
@@ -137,7 +137,7 @@ export default function Footer1() {
                     Transparencia
                   </Link>
                   <Link
-                    to={"https://www.sbs.gob.pe/coopac"}
+                    to={"https://intranet2.sbs.gob.pe/estadistica/financiera/2023/Noviembre/COOPAC002-no2023.PDF"}
                     target="_blank"
                     preventScrollReset={true}
                     className="text-black transition-colors font-light duration-200 hover:font-bold hover:text-primary-800"
@@ -150,6 +150,14 @@ export default function Footer1() {
           </div>
         </div>
       </div>
+
+      <div className="mt-14">
+        <p className="text-lg text-center">
+          <span className="font-light text-gray-600">Cooperativa de ahorros y créditos DILE Copyright © 2023</span>
+        </p>
+      </div>
+    
     </footer>
+    
   );
 }

@@ -28,7 +28,7 @@ export default function Molde({
 
           <div className="absolute w-full h-full top-0 ">
             <div className="w-full h-full mx-auto max-w-7xl grid content-center px-16">
-              <h2 className="text-[24px] md:text-[32px] lg:text-[64px] font-bold text-black smm:text-primary-50">
+              <h2 className="text-[24px] md:text-[32px] lg:text-[64px] font-bold text-primary-50 smm:text-primary-50">
                 {title}
               </h2>
             </div>

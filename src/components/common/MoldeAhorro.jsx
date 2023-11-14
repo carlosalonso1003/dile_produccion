@@ -16,7 +16,7 @@ export default function MoldeAhorro({
   }, [title]);
   return (
     <>
-      <div className="mb-16">
+      <div className="mb-16 ">
         <div className="relative">
           <div
             className={`pagadiario-container`}
@@ -27,7 +27,7 @@ export default function MoldeAhorro({
 
           <div className="absolute w-full h-full top-0 ">
             <div className="w-full h-full mx-auto max-w-7xl grid content-center px-16">
-              <h2 className="text-[24px] md:text-[32px] lg:text-[64px] font-bold text-black smm:text-primary-50">
+              <h2 className="text-[24px] md:text-[32px] lg:text-[64px] text-primary-50 font-bold smm:text-primary-50">
                 {title}
               </h2>
             </div>

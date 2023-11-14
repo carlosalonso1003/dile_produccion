@@ -7,7 +7,7 @@ export default function CuentaEspecial() {
   return (
     <>
       <Molde
-        image={"/images/pagodiario_new.jpg"}
+        image={"/images/flazo-fijo.jpg"}
         title={"PLAZO FIJO"}
         description={
           "Es una alternativa de financiamiento de corto plazo que permite al socio pagar el credito de manera diaria en la comodidad de su negocio, bajo el supuesto de que sus ingresos son en esta frecuencia."
@@ -18,7 +18,7 @@ export default function CuentaEspecial() {
             Title={"TIPOS DE CUENTA"}
             textColor={"text-primary-800"}
           >
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-1 gap-8 mt-8">
               <CardInfo
                 icon={"/icons/socioActivo.svg"}
                 title={"Individual"}
@@ -43,7 +43,7 @@ export default function CuentaEspecial() {
             Title={"CONOCE NUESTROS REQUISITOS"}
             textColor={"text-primary-800"}
           >
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
               <CardInfo
                 icon={"/icons/socioActivo.svg"}
                 title={"Ser socio"}
@@ -67,21 +67,34 @@ export default function CuentaEspecial() {
             Title={"CONOCE NUESTROS BENEFICIOS"}
             textColor={"text-primary-800"}
           >
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
               <CardInfo
                 icon={"/icons/beneficios.svg"}
                 title={"CLUB FAMILIA DILE"}
-                description={"una iniciativa para ayudarte a aumentar tus ahorros."}
-              />
-              <CardInfo
-                icon={"/icons/no_cobra_comision.svg"}
-                title={"cero comisiones"}
-                description={"No cobramos ningun tipo de comision o mantenimiento."}
+                description={"Una iniciativa para ayudarte a aumentar tus ahorros."}
               />
               <CardInfo
                 icon={"/icons/mejorar-finanzas.svg"}
                 title={"Interes"}
-                description={"Tenemos los mejores intereses del mercado, desde los 7% TREA"}
+                description={"Ganas buenos intereses, lo cual será cobrado al finalizar el plazo de tu depósito, así como podrá ser abonado de manera mensual si opta por el pago de interés mensual"}
+              />
+              <CardInfo
+                icon={"/icons/no_cobra_comision.svg"}
+                title={"cero comisiones"}
+                description={"No cobramos comisiones, mantenimiento e impuesto a las transacciones financieras (ITF)."}
+              />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 lg:ml-40 lg:mr-40">
+              
+              <CardInfo
+                icon={"/icons/certificado_deposito.svg"}
+                title={"Disponible"}
+                description={"Te damos acceso a un crédito fácil de hasta el 90% de tus depósitos, solo con DNI."}
+              />
+              <CardInfo
+                icon={"/icons/desembolso_fijo.svg"}
+                title={"Crédito facil"}
+                description={"Puede usarse como garantía de sus préstamos."}
               />
             </div>
           </InfoItems>

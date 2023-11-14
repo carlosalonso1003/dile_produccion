@@ -15,7 +15,7 @@ export default function CardInfo({ icon, title, description }) {
               />
             </div>
             <h1 className={`text-primary-800 font-bold`}>{title}</h1>
-            <p className={`text-primary-800 text-justify font-light p-5`}>{description}</p>
+            <p className={`text-primary-800 text-justify font-light p-1`}>{description}</p>
 
         </div>
       </div>
