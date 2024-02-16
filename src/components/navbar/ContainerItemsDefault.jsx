@@ -40,7 +40,7 @@ export default function ContainerItemsDefault({ id }) {
           className="w-10 h-10 hover:scale-125"
         />
       ),
-      title: "Cuenta Movil",
+      title: "Cuenta estrella",
       linkPath: "/cuenta-movil",
     },
     {

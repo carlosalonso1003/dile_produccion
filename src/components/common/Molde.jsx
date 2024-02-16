@@ -61,11 +61,13 @@ export default function Molde({
           </div>
         </div>
       </div>
+
       <div className="w-full bg-primary-50">
         <div className="w-full h-full mx-auto max-w-7xl px-10">
           <div className="py-16">{beneficios}</div>
         </div>
       </div>
+
       <div className="w-full bg-primary-800">
         <div className="w-full h-full mx-auto max-w-7xl px-10">
           <div className="py-16">{condiciones}</div>

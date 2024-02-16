@@ -8,33 +8,36 @@ export default function CuentaMovil() {
     <>
       <Molde
         image={"/images/cuenta_movil.jpg"}
-        title={"CUENTA MÓVIL"}
-
+        title={"ESTRELLA"}
+        textButton={"Abrir mi cuenta"}
+        linkForm={"/solicita/ahorro"}
         condiciones={
-          <InfoItems
-            Title={"TIPOS DE CUENTA"}
-            textColor={"text-primary-800"}
-          >
+          <InfoItems Title={"TIPOS DE CUENTA"} textColor={"text-primary-800"}>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
               <CardInfo
                 icon={"/icons/socioActivo.svg"}
                 title={"Individual"}
-                description={"Solo participa una persona, y es el único que puede efectuar retiros, consultar sobre el saldo de su cuenta, etc."}
+                description={
+                  "Solo participa una persona, y es el único que puede efectuar retiros, consultar sobre el saldo de su cuenta, etc."
+                }
               />
               <CardInfo
                 icon={"/icons/mancomunada_indistinta.svg"}
                 title={"Mancomunada Indistinta"}
-                description={"Participan dos o más personas, hasta un máximo de tres titulares, la característica de esta cuenta, es que cualquiera de los titulares puede realizar retiros."}
+                description={
+                  "Participan dos o más personas, hasta un máximo de tres titulares, la característica de esta cuenta, es que cualquiera de los titulares puede realizar retiros."
+                }
               />
               <CardInfo
                 icon={"/icons/mancomunada_conjunta.svg"}
                 title={"Mancomunada Conjunta"}
-                description={"Participan dos o más personas, hasta un máximo de tres titulares, la característica de esta cuenta, es que al momento de realizar retiros deberán presentarse los tres titulares, y firmar en el respectivo voucher de retiro."}
+                description={
+                  "Participan dos o más personas, hasta un máximo de tres titulares, la característica de esta cuenta, es que al momento de realizar retiros deberán presentarse los tres titulares, y firmar en el respectivo voucher de retiro."
+                }
               />
             </div>
           </InfoItems>
         }
-
         requisitos={
           <InfoItems
             Title={"CONOCE NUESTROS REQUISITOS"}
@@ -68,25 +71,32 @@ export default function CuentaMovil() {
               <CardInfo
                 icon={"/icons/beneficios.svg"}
                 title={"CLUB FAMILIA DILE"}
-                description={"Una iniciativa para ayudarte a aumentar tus ahorros."}
+                description={
+                  "Una iniciativa para ayudarte a aumentar tus ahorros."
+                }
               />
               <CardInfo
                 icon={"/icons/mejorar-finanzas.svg"}
                 title={"Interes"}
-                description={"Ganas buenos intereses, calculados a la tasa minima del 3.00 % TREA."}
+                description={
+                  "Ganas buenos intereses, calculados a la tasa minima del 3.00 % TREA."
+                }
               />
               <CardInfo
                 icon={"/icons/no_cobra_comision.svg"}
                 title={"cero comisiones"}
-                description={"No cobramos comisiones, mantenimiento e impuesto a las transacciones financieras (ITF)."}
+                description={
+                  "No cobramos comisiones, mantenimiento e impuesto a las transacciones financieras (ITF)."
+                }
               />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 lg:ml-40 lg:mr-40">
-              
               <CardInfo
                 icon={"/icons/libre_disponible.svg"}
                 title={"Disponible"}
-                description={"Libre disponibilidad de tu dinero en cualquier momento"}
+                description={
+                  "Libre disponibilidad de tu dinero en cualquier momento"
+                }
               />
               <CardInfo
                 icon={"/icons/desembolso_fijo.svg"}
@@ -96,7 +106,6 @@ export default function CuentaMovil() {
             </div>
           </InfoItems>
         }
-        
       />
     </>
   );

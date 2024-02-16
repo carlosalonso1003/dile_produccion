@@ -3,7 +3,7 @@ import MoldeFormulario from "./MoldeFormulario";
 
 export default function FormGeneral() {
   useEffect(() => {
-    document.title = "DILE Solicitar Credito";
+    document.title = "DILE - Ahorro";
   }, []);
   const slides = [
     {

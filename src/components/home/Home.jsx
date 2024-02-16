@@ -63,7 +63,7 @@ export default function Home() {
             <CardInfoHome
               title={"CUENTAS DE AHORRO"}
               image={`${process.env.PUBLIC_URL}/images/ahorro_principal.png`}
-              link={"/cuenta-especial"}
+              link={"/solicita/ahorro"}
               output={false}
             />
             <CardInfoHome
@@ -86,7 +86,7 @@ export default function Home() {
             />
             <CardInfoHome
               image={`${process.env.PUBLIC_URL}/images/socio_cooperativa.png`}
-            />            
+            />
             <CardInfoHome
               image={`${process.env.PUBLIC_URL}/images/agencia_nacional.png`}
             />
@@ -96,7 +96,6 @@ export default function Home() {
             <CardInfoHome
               image={`${process.env.PUBLIC_URL}/images/socio_certificado.png`}
             />
-            
           </div>
         </div>
       </div>

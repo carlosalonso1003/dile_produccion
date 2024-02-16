@@ -20,10 +20,10 @@ export default function InputRange({
       <div className={className}>
         <div className="h-[50px] flex flex-col items-center">
           <p className="self-start text-[16px] text-primary-800 font-medium">
-            Monto
+            Solicitar
           </p>
           <p className="self-start text-[18px] text-primary-800">
-            S/. {rangeValue}
+            Monto de crédito S/. {rangeValue}
           </p>
           <input
             type="range"

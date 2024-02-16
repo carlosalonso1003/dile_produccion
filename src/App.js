@@ -18,6 +18,8 @@ import FormRapidin from "./components/home/FormRapidin";
 import { useEffect, useState } from "react";
 import Spinner from "./Spinner";
 import FormGeneral from "./components/home/FormGeneral";
+import MoldeFormularioAhorro from "./components/home/MoldeFormularioAhorro";
+import FormAhorroGeneral from "./components/home/FormAhorroGeneral";
 
 function App() {
   return (
@@ -84,6 +86,11 @@ function App() {
               exact
               path="/nuestra-historia/nosotros"
               element={<CustomPage component={<Nosotros />} />}
+            />
+            <Route
+              exact
+              path="/solicita/ahorro"
+              element={<FormAhorroGeneral />}
             />
             <Route
               path="*"
